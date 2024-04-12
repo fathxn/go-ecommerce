@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/cmd/migrate/migrations/20240411230102_add-user-table.down.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/cmd/migrate/migrations/20240411230102_add-user-table.up.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/cmd/migrate/migrations/20240411231316_add-products-table.down.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/cmd/migrate/migrations/20240411231316_add-products-table.up.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/cmd/migrate/migrations/20240411231329_add-orders-table.up.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/cmd/migrate/migrations/20240411231828_add-order-items-table.up.sql" dialect="MySQL" />
+  </component>
+</project>
