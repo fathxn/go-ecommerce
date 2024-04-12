@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/joho/godotenv"
 	"os"
+	"strconv"
 )
 
 type DBConfig struct {
@@ -13,6 +14,8 @@ type DBConfig struct {
 	Password  string
 	Name      string
 	DBAddress string
+	JWTExpire int64
+	JWTSecret string
 }
 
 var Envs = initConfig()
@@ -27,12 +30,24 @@ func initConfig() DBConfig {
 		Password:  getEnv("DB_PASSWORD", ""),
 		Name:      getEnv("DB_NAME", "go_ecommerce"),
 		DBAddress: fmt.Sprintf("%s:%s", getEnv("DB_HOST", "127.0.0.1"), getEnv("DB_PORT", "3306")),
+		JWTSecret: getEnv("JWT_SECRET", "v3rY-s3creT-Jw7"),
+		JWTExpire: getEnvAsInt("JWT_EXP", 3600*24*7),
 	}
 }
 
 func getEnv(key, fallback string) string {
 	if value, ok := os.LookupEnv(key); ok {
 		return value
+	}
+	return fallback
+}
+
+func getEnvAsInt(key string, fallback int64) int64 {
+	if value, ok := os.LookupEnv(key); ok {
+		i, err := strconv.ParseInt(value, 10, 64)
+		if err != nil {
+			return i
+		}
 	}
 	return fallback
 }

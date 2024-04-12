@@ -2,12 +2,16 @@ package utils
 
 import (
 	"encoding/json"
+	"fmt"
+	"github.com/go-playground/validator/v10"
 	"net/http"
 )
 
+var Validate = validator.New()
+
 func ParseJSON(r *http.Request, payload interface{}) error {
 	if r.Body == nil {
-
+		return fmt.Errorf("missing request body")
 	}
 
 	return json.NewDecoder(r.Body).Decode(payload)
