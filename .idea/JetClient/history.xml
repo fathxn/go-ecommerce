@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1712960754361" />
+          <option name="id" value="2598fec2-046d-44c3-9106-b4877e57f4fc" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="NDA0IHBhZ2Ugbm90IGZvdW5kCg==" />
+              <option name="bodyString" value="404 page not found&#10;" />
+              <option name="code" value="404" />
+              <option name="contentType" value="text/plain; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 12 Apr 2024 22:25:54 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="19" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2598fec2-046d-44c3-9106-b4877e57f4fc" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="TEXT" />
+              <option name="rawBodyString" value="404 page not found&#10;" />
+              <option name="size" value="19" />
+              <option name="time" value="6" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712960803155" />
+          <option name="id" value="a4a2388d-6282-4bfb-b7b2-a9671a7fab4e" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W10K" />
+              <option name="bodyString" value="[]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 12 Apr 2024 22:26:43 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="3" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a4a2388d-6282-4bfb-b7b2-a9671a7fab4e" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[]&#10;" />
+              <option name="size" value="3" />
+              <option name="time" value="51" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712960978800" />
+          <option name="id" value="58e89ef5-d599-4758-9aa4-e8bc6bc62472" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6InNxbDogU2NhbiBlcnJvciBvbiBjb2x1bW4gaW5kZXggMCwgbmFtZSBcImlkXCI6IGRlc3RpbmF0aW9uIG5vdCBhIHBvaW50ZXIifQo=" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;sql: Scan error on column index 0, name \&quot;id\&quot;: destination not a pointer&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 12 Apr 2024 22:29:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="86" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="58e89ef5-d599-4758-9aa4-e8bc6bc62472" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;sql: Scan error on column index 0, name \&quot;id\&quot;: destination not a pointer&quot;}&#10;" />
+              <option name="size" value="86" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712960992179" />
+          <option name="id" value="89010a28-b72d-4656-a70f-3ed29a648451" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6InNxbDogU2NhbiBlcnJvciBvbiBjb2x1bW4gaW5kZXggMCwgbmFtZSBcImlkXCI6IGRlc3RpbmF0aW9uIG5vdCBhIHBvaW50ZXIifQo=" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;sql: Scan error on column index 0, name \&quot;id\&quot;: destination not a pointer&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 12 Apr 2024 22:29:52 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="86" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="89010a28-b72d-4656-a70f-3ed29a648451" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;sql: Scan error on column index 0, name \&quot;id\&quot;: destination not a pointer&quot;}&#10;" />
+              <option name="size" value="86" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712960996244" />
+          <option name="id" value="ca36fb9a-3968-4c87-a8db-271666f13a88" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6InNxbDogU2NhbiBlcnJvciBvbiBjb2x1bW4gaW5kZXggMCwgbmFtZSBcImlkXCI6IGRlc3RpbmF0aW9uIG5vdCBhIHBvaW50ZXIifQo=" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;sql: Scan error on column index 0, name \&quot;id\&quot;: destination not a pointer&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 12 Apr 2024 22:29:56 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="86" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ca36fb9a-3968-4c87-a8db-271666f13a88" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;sql: Scan error on column index 0, name \&quot;id\&quot;: destination not a pointer&quot;}&#10;" />
+              <option name="size" value="86" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712960997143" />
+          <option name="id" value="be1d86f2-91d5-47a6-a646-ca8ca6043e78" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6InNxbDogU2NhbiBlcnJvciBvbiBjb2x1bW4gaW5kZXggMCwgbmFtZSBcImlkXCI6IGRlc3RpbmF0aW9uIG5vdCBhIHBvaW50ZXIifQo=" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;sql: Scan error on column index 0, name \&quot;id\&quot;: destination not a pointer&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 12 Apr 2024 22:29:57 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="86" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="be1d86f2-91d5-47a6-a646-ca8ca6043e78" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;sql: Scan error on column index 0, name \&quot;id\&quot;: destination not a pointer&quot;}&#10;" />
+              <option name="size" value="86" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>

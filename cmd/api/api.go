@@ -3,6 +3,7 @@ package api
 import (
 	"database/sql"
 	"github.com/gorilla/mux"
+	"go-ecommerce/service/product"
 	"go-ecommerce/service/user"
 	"log"
 	"net/http"
@@ -27,6 +28,10 @@ func (api *APIServer) Start() error {
 	userStore := user.NewStore(api.DB)
 	userHandler := user.NewHandler(userStore)
 	userHandler.RegisterRoutes(subrouter)
+
+	productStore := product.NewStore(api.DB)
+	productHandler := product.NewHandler(productStore)
+	productHandler.RegisterRoutes(subrouter)
 
 	log.Println("Server running on", api.Addr)
 	return http.ListenAndServe(api.Addr, router)
