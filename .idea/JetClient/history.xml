@@ -259,6 +259,48 @@
             </responseState>
           </option>
         </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1712961115798" />
+          <option name="id" value="7e1dd877-efd5-4872-bc32-f909dce2466c" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjEsIm5hbWUiOiJDb29sIEphY2tldCIsImRlc2NyaXB0aW9uIjoiTm9uLXppcHBlciBjb3R0b24gaG9vZGllIiwiaW1hZ2UiOiJpbWFnZS5qcGciLCJwcmljZSI6MTUwMDAwLCJxdWFudGl0eSI6NTAsImNyZWF0ZWRfYXQiOiIyMDI0LTA0LTEzVDA1OjI5OjI0WiJ9XQo=" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot; : 1,&#10;    &quot;name&quot; : &quot;Cool Jacket&quot;,&#10;    &quot;description&quot; : &quot;Non-zipper cotton hoodie&quot;,&#10;    &quot;image&quot; : &quot;image.jpg&quot;,&#10;    &quot;price&quot; : 150000,&#10;    &quot;quantity&quot; : 50,&#10;    &quot;created_at&quot; : &quot;2024-04-13T05:29:24Z&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 12 Apr 2024 22:31:55 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="158" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7e1dd877-efd5-4872-bc32-f909dce2466c" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Cool Jacket&quot;,&quot;description&quot;:&quot;Non-zipper cotton hoodie&quot;,&quot;image&quot;:&quot;image.jpg&quot;,&quot;price&quot;:150000,&quot;quantity&quot;:50,&quot;created_at&quot;:&quot;2024-04-13T05:29:24Z&quot;}]&#10;" />
+              <option name="size" value="158" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+        </requestHistoryState>
       </list>
     </option>
   </component>

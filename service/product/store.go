@@ -2,7 +2,9 @@ package product
 
 import (
 	"database/sql"
+	"fmt"
 	"go-ecommerce/types"
+	"strings"
 )
 
 type Store struct {
@@ -29,6 +31,50 @@ func (s *Store) GetProducts() ([]types.Product, error) {
 	}
 
 	return products, nil
+}
+
+func (s *Store) AddProduct(product types.Product) error {
+	_, err := s.db.Exec("INSERT INTO products (name, description, image, price, quantity) VALUES (?, ?, ?, ?, ?)", product.Name, product.Description, product.Image, product.Price, product.Quantity)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func (s *Store) GetProductsByIds(ps []int) ([]types.Product, error) {
+	placeholders := strings.Repeat(",?", len(ps)-1)
+	query := fmt.Sprintf("SELECT * FROM products WHERE id IN (?%s)", placeholders)
+
+	// convert productids to []interface{}
+	args := make([]interface{}, len(ps))
+	for i, v := range ps {
+		args[i] = v
+	}
+
+	rows, err := s.db.Query(query, args...)
+	if err != nil {
+		return nil, err
+	}
+
+	products := []types.Product{}
+	for rows.Next() {
+		p, err := scanRowIntoProduct(rows)
+		if err != nil {
+			return nil, err
+		}
+
+		products = append(products, *p)
+	}
+
+	return products, nil
+}
+
+func (s *Store) UpdateProduct(product types.Product) error {
+	_, err := s.db.Exec("UPDATE products SET name = ?, price = ?, image = ?, description = ?, quantity = ? WHERE id = ?", product.Name, product.Price, product.Image, product.Description, product.Quantity, product.ID)
+	if err != nil {
+		return err
+	}
+	return nil
 }
 
 func scanRowIntoProduct(rows *sql.Rows) (*types.Product, error) {
