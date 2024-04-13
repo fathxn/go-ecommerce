@@ -301,6 +301,525 @@
             </responseState>
           </option>
         </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713049744924" />
+          <option name="id" value="b4e5b3a1-8d94-4c43-a54b-94acb5fc5b75" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/products" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOjEsIm5hbWUiOiJDb29sIEphY2tldCIsImRlc2NyaXB0aW9uIjoiTm9uLXppcHBlciBjb3R0b24gaG9vZGllIiwiaW1hZ2UiOiJpbWFnZS5qcGciLCJwcmljZSI6MTUwMDAwLCJxdWFudGl0eSI6NTAsImNyZWF0ZWRfYXQiOiIyMDI0LTA0LTEzVDA1OjI5OjI0WiJ9XQo=" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot; : 1,&#10;    &quot;name&quot; : &quot;Cool Jacket&quot;,&#10;    &quot;description&quot; : &quot;Non-zipper cotton hoodie&quot;,&#10;    &quot;image&quot; : &quot;image.jpg&quot;,&#10;    &quot;price&quot; : 150000,&#10;    &quot;quantity&quot; : 50,&#10;    &quot;created_at&quot; : &quot;2024-04-13T05:29:24Z&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 13 Apr 2024 23:09:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="158" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b4e5b3a1-8d94-4c43-a54b-94acb5fc5b75" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Cool Jacket&quot;,&quot;description&quot;:&quot;Non-zipper cotton hoodie&quot;,&quot;image&quot;:&quot;image.jpg&quot;,&quot;price&quot;:150000,&quot;quantity&quot;:50,&quot;created_at&quot;:&quot;2024-04-13T05:29:24Z&quot;}]&#10;" />
+              <option name="size" value="158" />
+              <option name="time" value="77" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713049896586" />
+          <option name="id" value="3f9a19ac-4e96-4f75-ab11-a18f562f37bb" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;product_id&quot;: 1,&#10;      &quot;quantity&quot;: 5&#10;    },&#10;    {&#10;      &quot;product_id&quot;: 2,&#10;      &quot;quantity&quot;: 10&#10;    }&#10;  ]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/cart/checkout" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6InBlcm1pc3Npb24gZGVuaWVkIn0K" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;permission denied&quot;&#10;}" />
+              <option name="code" value="403" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 13 Apr 2024 23:11:36 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="30" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3f9a19ac-4e96-4f75-ab11-a18f562f37bb" />
+              <option name="message" value="Forbidden" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;permission denied&quot;}&#10;" />
+              <option name="size" value="30" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713049972481" />
+          <option name="id" value="c221a1cc-424b-49df-be6d-4c9c24a6cb39" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;fathan@email.com&quot;,&#10;  &quot;password&quot;: &quot;123&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b544b109-0001-4111-ae51-cac8a54fcc41" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 1" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpsZUhCcGNtVmtYMkYwSWpveE56RXpOalUwTnpjeUxDSjFjMlZ5WDJsa0lqb2lNU0o5LmJuMFdRT2FJTFRpN25yYjBqd19Dd2JVWWl0STdtY0VxeWFlR0hFNS1qLVkifQo=" />
+              <option name="bodyString" value="{&#10;  &quot;token&quot; : &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmVkX2F0IjoxNzEzNjU0NzcyLCJ1c2VyX2lkIjoiMSJ9.bn0WQOaILTi7nrb0jw_CwbUYitI7mcEqyaeGHE5-j-Y&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 13 Apr 2024 23:12:52 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="146" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c221a1cc-424b-49df-be6d-4c9c24a6cb39" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmVkX2F0IjoxNzEzNjU0NzcyLCJ1c2VyX2lkIjoiMSJ9.bn0WQOaILTi7nrb0jw_CwbUYitI7mcEqyaeGHE5-j-Y&quot;}&#10;" />
+              <option name="size" value="146" />
+              <option name="time" value="80" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713050013142" />
+          <option name="id" value="cd65b509-9c6a-484e-b1a6-989941b5146f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;product_id&quot;: 1,&#10;      &quot;quantity&quot;: 5&#10;    },&#10;    {&#10;      &quot;product_id&quot;: 2,&#10;      &quot;quantity&quot;: 10&#10;    }&#10;  ]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmVkX2F0IjoxNzEzNjU0NzcyLCJ1c2VyX2lkIjoiMSJ9.bn0WQOaILTi7nrb0jw_CwbUYitI7mcEqyaeGHE5-j-Y" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/cart/checkout" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6InBlcm1pc3Npb24gZGVuaWVkIn0K" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;permission denied&quot;&#10;}" />
+              <option name="code" value="403" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 13 Apr 2024 23:13:33 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="30" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="cd65b509-9c6a-484e-b1a6-989941b5146f" />
+              <option name="message" value="Forbidden" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;permission denied&quot;}&#10;" />
+              <option name="size" value="30" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713050017605" />
+          <option name="id" value="ea79cfc7-05a1-482b-bde5-6fe6f711000d" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;product_id&quot;: 1,&#10;      &quot;quantity&quot;: 5&#10;    },&#10;    {&#10;      &quot;product_id&quot;: 2,&#10;      &quot;quantity&quot;: 10&#10;    }&#10;  ]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmVkX2F0IjoxNzEzNjU0NzcyLCJ1c2VyX2lkIjoiMSJ9.bn0WQOaILTi7nrb0jw_CwbUYitI7mcEqyaeGHE5-j-Y" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/cart/checkout" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6InBlcm1pc3Npb24gZGVuaWVkIn0K" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;permission denied&quot;&#10;}" />
+              <option name="code" value="403" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 13 Apr 2024 23:13:37 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="30" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ea79cfc7-05a1-482b-bde5-6fe6f711000d" />
+              <option name="message" value="Forbidden" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;permission denied&quot;}&#10;" />
+              <option name="size" value="30" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713050057992" />
+          <option name="id" value="af816227-0bcd-4067-a000-f0fbe5bb8aba" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;fathan@email.com&quot;,&#10;  &quot;password&quot;: &quot;s123&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b544b109-0001-4111-ae51-cac8a54fcc41" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 1" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6ImludmFsaWQgZW1haWwgb3IgcGFzc3dvcmQifQo=" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;invalid email or password&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 13 Apr 2024 23:14:17 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="38" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="af816227-0bcd-4067-a000-f0fbe5bb8aba" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;invalid email or password&quot;}&#10;" />
+              <option name="size" value="38" />
+              <option name="time" value="65" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713050074196" />
+          <option name="id" value="584b1379-7d38-4a49-817f-0b6d6c00ff80" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;fathan@email.com&quot;,&#10;  &quot;password&quot;: &quot;123&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b544b109-0001-4111-ae51-cac8a54fcc41" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 1" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpsZUhCcGNtVmtYMkYwSWpveE56RXpOalUwT0RjMExDSjFjMlZ5WDJsa0lqb2lNU0o5LlFnNmtLZmRMTzRSVTg5bG12LWU1ZkZoV0t1cnhCZVZmVVNxR0ppUEdaVVEifQo=" />
+              <option name="bodyString" value="{&#10;  &quot;token&quot; : &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmVkX2F0IjoxNzEzNjU0ODc0LCJ1c2VyX2lkIjoiMSJ9.Qg6kKfdLO4RU89lmv-e5fFhWKurxBeVfUSqGJiPGZUQ&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 13 Apr 2024 23:14:34 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="146" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="584b1379-7d38-4a49-817f-0b6d6c00ff80" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmVkX2F0IjoxNzEzNjU0ODc0LCJ1c2VyX2lkIjoiMSJ9.Qg6kKfdLO4RU89lmv-e5fFhWKurxBeVfUSqGJiPGZUQ&quot;}&#10;" />
+              <option name="size" value="146" />
+              <option name="time" value="63" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713050094875" />
+          <option name="id" value="a8d76ece-8db5-4d88-8a6c-a3b4e4346aa7" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;product_id&quot;: 1,&#10;      &quot;quantity&quot;: 5&#10;    },&#10;    {&#10;      &quot;product_id&quot;: 2,&#10;      &quot;quantity&quot;: 10&#10;    }&#10;  ]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmVkX2F0IjoxNzEzNjU0ODc0LCJ1c2VyX2lkIjoiMSJ9.Qg6kKfdLO4RU89lmv-e5fFhWKurxBeVfUSqGJiPGZUQ" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/cart/checkout" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6InBlcm1pc3Npb24gZGVuaWVkIn0K" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;permission denied&quot;&#10;}" />
+              <option name="code" value="403" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 13 Apr 2024 23:14:54 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="30" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a8d76ece-8db5-4d88-8a6c-a3b4e4346aa7" />
+              <option name="message" value="Forbidden" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;permission denied&quot;}&#10;" />
+              <option name="size" value="30" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713050176654" />
+          <option name="id" value="55064a20-ebe1-4bb7-ae8a-756197dd7d2b" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;items&quot; : [&#10;    {&#10;      &quot;product_id&quot; : 204,&#10;      &quot;quantity&quot; : 682&#10;    },&#10;    {&#10;      &quot;product_id&quot; : 805,&#10;      &quot;quantity&quot; : 289&#10;    }&#10;  ]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmVkX2F0IjoxNzEzNjU0ODc0LCJ1c2VyX2lkIjoiMSJ9.Qg6kKfdLO4RU89lmv-e5fFhWKurxBeVfUSqGJiPGZUQ" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1bbc262b-e0e8-4f80-a7df-b22f867e1f94" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://127.0.0.1:8000/api/v1/cart/checkout" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvciI6InBlcm1pc3Npb24gZGVuaWVkIn0K" />
+              <option name="bodyString" value="{&#10;  &quot;error&quot; : &quot;permission denied&quot;&#10;}" />
+              <option name="code" value="403" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 13 Apr 2024 23:16:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="30" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="55064a20-ebe1-4bb7-ae8a-756197dd7d2b" />
+              <option name="message" value="Forbidden" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;error&quot;:&quot;permission denied&quot;}&#10;" />
+              <option name="size" value="30" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+        </requestHistoryState>
       </list>
     </option>
   </component>
